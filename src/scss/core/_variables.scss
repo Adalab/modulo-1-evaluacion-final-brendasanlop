@@ -1,11 +1,16 @@
 /* Esto es de la plantilla 
 // fonts
-$font-main: 'Roboto', sans-serif;
-
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
-*/
+$font-main: 'Roboto', sans-serif;  */
 
 //Image header
-$headerImage: url(../../images/header.jpg);
+$headerImage: url("../images/header.jpg");
+
+//Colors
+$light-grey: #f0ebe5;
+$orange: #ff975a;
+$dark-blue: #0c474b;
+$dark-grey: #b6c8c9;
+$white: #ffffff;
+
+//Fonts
+$fontText: "poppins";

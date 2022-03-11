@@ -1,3 +1,39 @@
 .header {
   background-image: $headerImage;
+  background-size: cover;
+
+  .container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .logo-header {
+    width: 213px;
+    height: 96px;
+    margin: 19px 101px 274px 100px;
+  }
+  .title-header {
+    color: $dark-blue;
+    font-family: $fontText;
+    font-size: 24px;
+  }
+
+  .menu_hamburguer {
+    width: 24px;
+    height: 24px;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .list-nav {
+    display: none;
+  }
+}
+
+.nav1-container {
 }

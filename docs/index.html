@@ -3,66 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Evaluación final Brenda</title>
+    <!--Esto es de la plantilla anterior
     <link rel="icon" href="./assets/images/favicon.png" />
+    -->
+    <!--Estas son las Fuentes de mi web-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+    <!--Header-->
+    <header class="header">
+      <nav class="nav1-container">
+        
+        <!--Aqui va mi imagen de fondo-->
+        <img class="menu_hamburguer" src="./assets/images/bars-solid.svg">
+        <div class="header__nav__menu">
+              <ul class="list-nav">
+                  <li class="item-nav"><a href="#">Productos</a></li>
+                  <li class="item-nav"><a href="#">Colecciones </a></li>
+                  <li class="item-nav"><a href="#">Tienda</a></li>
+                  <li class="item-nav"><a href="#">Inicio </a></li>
+              </ul> 
+        </div>
+      </nav>
+      <div class="container-header">
+        <img src="./assets/images/logo.png" alt="Logo Open Spaces" class="logo-header">
+        <!--Aqui va mi imagen de fondo-->
+        <h1 class="title-header">Disfruta creando espacios</h1>
+        <button class="buy-button">Comprar ahora</button> 
+      </div> 
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
+    <!--Main-->
+    <main>
+        <!--Aqui empieza la section 1-->
+        <section class="section1">
+            <div>
+                <h2>Volverse organizado se siente mejor con OPEN SPACES</h2>
+            </div>
+            <article class="article1">
+                <img src="./assets/images/icon_1.png" alt="table icon">
+                <h3>Lo que necesitas </h3>
+                <p>Una línea de productos diseñados para todos tus espacios</p>
+            </article>
+            <article class="article2">
+                <img src="./assets/images/icon_2.png" alt="raw materials">
+                <h3>Materias primas sustentables</h3>
+                <p>Todos los productos con materias primas sustentables</p>
+            </article>
+            <article class="article3">
+                <img src="./assets/images/icon_3.png" alt="help guide">
+                <h3>Guía</h3>
+                <p>Soporte y asesoramiento para ayudarte con tu objetivo</p>
+            </article>
+        </section>
+        <!--Aqui empieza la section 2-->
+        <section class="section2">
+            <img src="./assets/images/icon_4.png" alt="free shipping">
+            <h4>Envío gratis garantizado</h4>
+            <p>Envío gratis en compras desde 100</p>
+            <p>Comprar ahora</p> 
+        </section>
+        <!--Aquí empieza la section 3-->
+        <section class="section3">
+            <article class="article-section3">
+                <h2>Disfruta creando espacios</h2>
+                <p>Una linea de productos diseñados para todos tus espacios</p>
+            <div class="button">
+                <input class="button__buyNow" type="submit" value="Comprar ahora"/>
+            </div>
+            </article>
+            <div>
+                <img src="./assets/images/creando-espacios.jpg" alt="toilet space">
+            </div>
+        </section>
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <!--Footer-->
+    <!-- FOOTER -->
+    <footer class="footer">
 
-        </small>
-      </footer>
+        <div class="footer__elements">
+           <h3 class="elements__title">Tienda</h3>
+           <span class="elements__span">
+            Productos
+            Cajoneras
+            Para toda la casa 
+            Habitaciones
+           </span>
+        </div>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+        <div class="footer__elements">
+            <h3 class="elements__title">Nosotros</h3>
+            <span class="elements__span"> 
+            Nuestra guía 
+            Nuestro diseño 
+            Nuesta historia 
+            Ayuda   
+            </span>
+          
+        </div>
+        <div class="footer__elements">
+            <h3 class="elements__title">Contacto</h3>
+            <span class="elements__span">
+            ayuda@openspaces.com 
+            Socios    
+            </span>
+        </div>
+        
+        <div>
+          Aqui van iconos RRSS (Linkedin, Instagram y Twitter)
+        </div> 
+        </footer>
   </body>
 </html>
