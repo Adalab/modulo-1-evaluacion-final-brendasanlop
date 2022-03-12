@@ -1,3 +1,61 @@
-.section1 {
-  //font-family: $fontText;
+main {
+  background-color: $light-grey;
+
+  .section1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: $fontText;
+    height: 1108px;
+  }
+  h2 {
+    width: 322px;
+    height: 113px;
+    font-size: 24px;
+    font-family: $fontText;
+    font-weight: 600px;
+    color: $dark-blue;
+    text-align: center;
+    margin: 41px 47px 0px 45px;
+  }
+  .article1 .article2 .article3 {
+    margin-top: 37px;
+  }
+
+  .table-icon {
+    margin: 0px 168px 0px 156px;
+    justify-content: center;
+    width: 90px;
+    height: 99px;
+  }
+  .title-h3 {
+    width: 208px;
+    height: 23px;
+    text-align: center;
+    font-family: $fontText;
+    color: $dark-blue;
+    font-weight: 600px;
+    margin: 47px 103px 0px 103px;
+  }
+  .text-articles {
+    width: 208px;
+    height: 96px;
+    margin: 12px 103px 0 103px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: $dark-blue;
+  }
+  .text-articles2 {
+    width: 208px;
+    height: 96px;
+    margin: 53px 103px 0 103px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: $dark-blue;
+  }
+  .container-h2-main {
+    width: fit-content;
+    height: fit-content;
+  }
 }

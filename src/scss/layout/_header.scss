@@ -12,12 +12,17 @@
   .logo-header {
     width: 213px;
     height: 96px;
-    margin: 19px 101px 274px 100px;
+    margin: 19px 101px 0px 100px;
   }
+
   .title-header {
     color: $dark-blue;
     font-family: $fontText;
     font-size: 24px;
+    width: 414px;
+    height: 38px;
+    text-align: center;
+    margin-top: 100px;
   }
 
   .menu_hamburguer {
@@ -28,12 +33,31 @@
     top: 0;
     left: 0;
     z-index: 100;
+    margin-top: 55px;
+    margin-right: 43px;
+    margin-left: 33px;
   }
 
   .list-nav {
     display: none;
   }
-}
 
-.nav1-container {
+  .buy-button {
+    background-color: $dark-blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 176px;
+    height: 48px;
+    font-family: $fontText;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-top: 24px;
+
+    //margin: 15px 10px;
+    // margin: 12px 24px 12px 24px;
+    //padding: 10px 10px;
+  }
 }
