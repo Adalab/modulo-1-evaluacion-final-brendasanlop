@@ -1,11 +1,11 @@
 main {
-  background-color: $light-grey;
-
+  //Corresponde a la section 1
   .section1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     font-family: $fontText;
     height: 1108px;
+    background-color: $light-grey;
   }
   h2 {
     width: 322px;
@@ -21,13 +21,19 @@ main {
     margin-top: 37px;
   }
 
+  .container-h2-main {
+    width: fit-content;
+    height: fit-content;
+  }
+  //Corresponde a article 1
+
   .table-icon {
     margin: 0px 168px 0px 156px;
     justify-content: center;
     width: 90px;
     height: 99px;
   }
-  .title-h3 {
+  .title1-h3 {
     width: 208px;
     height: 23px;
     text-align: center;
@@ -36,26 +42,127 @@ main {
     font-weight: 600px;
     margin: 47px 103px 0px 103px;
   }
-  .text-articles {
+  .text-article1 {
     width: 208px;
     height: 96px;
     margin: 12px 103px 0 103px;
+    font-family: $fontText;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
     color: $dark-blue;
   }
-  .text-articles2 {
+  //Corresponde a article 2
+  .materials {
+    margin: 63px 168px 46.5px 174px;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+  }
+  .title2-h3 {
+    width: 291px;
+    height: 23px;
+    text-align: center;
+    font-family: $fontText;
+    color: $dark-blue;
+    font-weight: 600px;
+    margin: 0px 59px 0px 64px;
+  }
+  .text-article2 {
     width: 208px;
     height: 96px;
-    margin: 53px 103px 0 103px;
+    margin: 53px 100px 31px 106px;
+    font-family: $fontText;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
     color: $dark-blue;
   }
-  .container-h2-main {
-    width: fit-content;
-    height: fit-content;
+  //Corresponde al article 3
+  .guide {
+    margin: 0px 160.6px 37.5px 174.6px;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+  }
+  .title-h3 {
+    width: 208px;
+    height: 23px;
+    text-align: center;
+    font-family: $fontText;
+    color: $dark-blue;
+    font-weight: 600px;
+    margin: 0px 95px 12px 111px;
+  }
+  .text-article3 {
+    width: 208px;
+    height: 96px;
+    margin: 0px 95px 18px 111px;
+    font-family: $fontText;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: $dark-blue;
+  }
+  //Corresponde a la section 2
+  .section2 {
+    background-color: $orange;
+    height: 352px;
+    display: grid;
+    grid-template-rows: 1fr 1 fr 1fr;
+  }
+  .shipping {
+    width: 112px;
+    height: 98px;
+    margin: 46px 152px 0px 142px;
+  }
+  h4 {
+    width: 414px;
+    height: 41px;
+    font-family: $fontText;
+    font-size: 24px;
+    color: $white;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .free-send {
+    width: 375px;
+    height: 31px;
+    text-align: center;
+    margin: 0px 37px 0px 12px;
+    font-family: $fontText;
+    font-size: 14px;
+    font-weight: normal;
+    color: $white;
+  }
+  .link-section2 {
+    width: 127px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 148px 51px 139px;
+    font-family: $fontText;
+    font-size: 16px;
+    font-weight: 600px;
+  }
+  a {
+    color: $white;
+  }
+  //Corresponde a la section 3
+  .section3 {
+    height: 339px;
+    background-color: $light-grey;
+  }
+  .h2-section3 {
+    font-family: $fontText;
+    font-size: 24px;
+    color: $dark-blue;
+    text-align: center;
+  }
+  .container-section3 {
+    width: 360px;
+    height: 112px;
+    margin: 87px 27px 140px 27px;
   }
 }
