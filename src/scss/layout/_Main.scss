@@ -60,9 +60,10 @@ main {
     height: 90px;
   }
   .title2-h3 {
-    width: 291px;
+    width: 270px;
     height: 23px;
     text-align: center;
+    justify-content: center;
     font-family: $fontText;
     color: $dark-blue;
     font-weight: 600px;
@@ -140,7 +141,7 @@ main {
     width: 127px;
     height: 24px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     margin: 0px 148px 51px 139px;
     font-family: $fontText;
     font-size: 16px;
@@ -153,16 +154,51 @@ main {
   .section3 {
     height: 339px;
     background-color: $light-grey;
+    display: flex;
+  }
+  .container-section3 {
+    width: 360px;
+    height: 112px;
+    margin: 87px 27px 0px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .h2-section3 {
     font-family: $fontText;
     font-size: 24px;
     color: $dark-blue;
-    text-align: center;
+    font-weight: 600px;
   }
-  .container-section3 {
-    width: 360px;
-    height: 112px;
-    margin: 87px 27px 140px 27px;
+  .products-line {
+    width: 370px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 148px 51px 139px;
+    font-family: $fontText;
+    color: $dark-blue;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 27px 0px 27px;
+  }
+  .buy-buttonMain {
+    width: 176px;
+    height: 48px;
+    background-color: $dark-blue;
+    color: $white;
+    text-transform: capitalize;
+    font-family: $fontText;
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 24px 116px 92px 122px;
+  }
+  .article-section3 a {
+    text-decoration: none;
+  }
+  //Corresponde a la section 4
+  .section4 {
+    width: 414px;
+    height: 304px;
   }
 }

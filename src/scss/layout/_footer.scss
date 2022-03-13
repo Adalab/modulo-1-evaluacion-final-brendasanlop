@@ -1,7 +1,36 @@
 .footer {
-  color: $dark-blue;
+  height: 545px;
+  color: $dark-grey;
+  background-color: $dark-blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: $fontText;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600px;
+    text-transform: capitalize;
+  }
+  &__link--1 {
+    margin: 56px 59px 20px 146px;
+  }
+  &__link--2 {
+    margin: 0px 59px 20px 146px;
+  }
+  &__link--3 {
+    margin: 0px 59px 56px 146px;
+  }
+  &__link--1,
+  &__link--2,
+  &__link--3 {
+    list-style: none;
+  }
+  .links__item a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: $dark-grey;
+  }
 }
