@@ -1,20 +1,51 @@
 main {
+  width: 100%;
   //Corresponde a la section 1
   .section1 {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    //grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     font-family: $fontText;
-    height: 1108px;
+    //height: 1108px;
     background-color: $light-grey;
+    @media (min-width: 1200px) {
+      //height: 611px;
+      grid-template-columns: 1fr 1fr 1fr;
+      //grid-gap: 216px 256px 0px;
+      //grid-template-rows: 250px 1fr;
+      //height: 611px;
+    }
+    .title-section1 {
+      @media (min-width: 1200px) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 100%;
+      }
+    }
+    .article1 {
+      @media (min-width: 1200px) {
+        //width: 208px;
+        //height: 263px;
+      }
+    }
+    .article1,
+    .article2,
+    .article3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
   }
   h2 {
-    width: 322px;
-    height: 113px;
+    //width: 322px;
+    //height: 113px;
     font-size: 24px;
     font-family: $fontText;
-    font-weight: 600px;
+    font-weight: 600pt;
     color: $dark-blue;
     text-align: center;
+    background-color: $light-grey;
     margin: 41px 47px 0px 45px;
   }
   .article1 .article2 .article3 {
@@ -22,29 +53,39 @@ main {
   }
 
   .container-h2-main {
-    width: fit-content;
-    height: fit-content;
+    /*width: fit-content;
+    height: fit-content;*/
+
+    // margin-top: 41px;
+    @media (min-width: 1200px) {
+      width: 799px;
+      height: 212px;
+    }
   }
   //Corresponde a article 1
 
   .table-icon {
-    margin: 0px 168px 0px 156px;
+    margin: 37px 168px 47px 156px;
     justify-content: center;
     width: 90px;
     height: 99px;
+
+    @media (min-width: 1200px) {
+      width: 120px;
+      height: 120px;
+    }
   }
   .title1-h3 {
-    width: 208px;
-    height: 23px;
+    //width: 208px;
+    //height: 23px;
     text-align: center;
     font-family: $fontText;
     color: $dark-blue;
     font-weight: 600px;
-    margin: 47px 103px 0px 103px;
   }
   .text-article1 {
-    width: 208px;
-    height: 96px;
+    // width: 208px;
+    //height: 96px;
     margin: 12px 103px 0 103px;
     font-family: $fontText;
     font-size: 16px;
@@ -54,24 +95,27 @@ main {
   }
   //Corresponde a article 2
   .materials {
-    margin: 63px 168px 46.5px 174px;
+    margin: 40px 168px 46.5px 174px;
     justify-content: center;
     width: 90px;
     height: 90px;
+    @media (min-width: 1200px) {
+      width: 120px;
+      height: 120px;
+    }
   }
   .title2-h3 {
     width: 270px;
-    height: 23px;
     text-align: center;
     justify-content: center;
     font-family: $fontText;
     color: $dark-blue;
     font-weight: 600px;
-    margin: 0px 59px 0px 64px;
+    margin: 0px 64px 0px 59px;
   }
   .text-article2 {
-    width: 208px;
-    height: 96px;
+    //width: 208px;
+    //height: 96px;
     margin: 53px 100px 31px 106px;
     font-family: $fontText;
     font-size: 16px;
@@ -81,14 +125,18 @@ main {
   }
   //Corresponde al article 3
   .guide {
-    margin: 0px 160.6px 37.5px 174.6px;
+    margin: 40px 160.6px 37.5px 174.6px;
     justify-content: center;
-    width: 90px;
+    //width: 90px;
     height: 90px;
+    @media (min-width: 1200px) {
+      width: 120px;
+      height: 120px;
+    }
   }
   .title-h3 {
-    width: 208px;
-    height: 23px;
+    //width: 208px;
+    //height: 23px;
     text-align: center;
     font-family: $fontText;
     color: $dark-blue;
@@ -96,9 +144,9 @@ main {
     margin: 0px 95px 12px 111px;
   }
   .text-article3 {
-    width: 208px;
-    height: 96px;
-    margin: 0px 95px 18px 111px;
+    //width: 208px;
+    //height: 96px;
+    margin: 0px 95px 40px 111px;
     font-family: $fontText;
     font-size: 16px;
     font-weight: normal;
@@ -108,28 +156,42 @@ main {
   //Corresponde a la section 2
   .section2 {
     background-color: $orange;
-    height: 352px;
+    width: 100%;
+    //height: 352px;
     display: grid;
     grid-template-rows: 1fr 1 fr 1fr;
+    @media (min-width: 1200px) {
+      height: 400px;
+    }
   }
   .shipping {
     width: 112px;
     height: 98px;
     margin: 46px 152px 0px 142px;
+    @media (min-width: 1200px) {
+      width: 120px;
+      height: 120px;
+      margin: 61px 776px 0px 832px;
+    }
   }
   h4 {
-    width: 414px;
-    height: 41px;
+    //width: 414px;
+    //height: 41px;
     font-family: $fontText;
     font-size: 24px;
     color: $white;
     font-weight: 600px;
     text-align: center;
     margin-top: 10px;
+    @media (min-width: 1200px) {
+      width: 779px;
+      height: 112px;
+      margin: 25px 437px 107px 492px;
+    }
   }
   .free-send {
-    width: 375px;
-    height: 31px;
+    //width: 375px;
+    //height: 31px;
     text-align: center;
     margin: 0px 37px 0px 12px;
     font-family: $fontText;
@@ -138,11 +200,11 @@ main {
     color: $white;
   }
   .link-section2 {
-    width: 127px;
-    height: 24px;
+    //width: 127px;
+    //height: 24px;
     justify-content: center;
     text-align: center;
-    margin: 0px 148px 51px 139px;
+    margin: 20px 148px 51px 139px;
     font-family: $fontText;
     font-size: 16px;
     font-weight: 600px;
@@ -152,13 +214,18 @@ main {
   }
   //Corresponde a la section 3
   .section3 {
-    height: 339px;
+    width: 100%;
+    //height: 339px;
     background-color: $light-grey;
     display: flex;
+    @media (min-width: 1200px) {
+      width: 50%;
+      align-items: flex-start;
+    }
   }
   .container-section3 {
     width: 360px;
-    height: 112px;
+    //height: 112px;
     margin: 87px 27px 0px 27px;
     display: flex;
     flex-direction: column;
@@ -198,8 +265,20 @@ main {
   }
   //Corresponde a la section 4
   .section4 {
-    width: 414px;
+    width: 100%;
     height: 304px;
-    margin-bottom: 200px;
+  }
+  .toilet-image {
+    width: 100%;
+    height: 100%;
+    //object-fit: fill;
+    @media (min-width: 1200px) {
+      width: 50%;
+      margin-left: 854px;
+      align-items: flex-end;
+      position: relative;
+      transform: translateX(-50%);
+      transform: translateY(-130%);
+    }
   }
 }
