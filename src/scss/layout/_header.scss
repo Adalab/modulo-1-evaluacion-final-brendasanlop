@@ -106,7 +106,14 @@
       margin-right: 23px;
     }
   }
-  /* No se activa el hover
+  /*.item-nav {
+    a { transition: text-decoration 0.3s;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  /* 
   a:hover {
     animation-duration: 10s;
     animation-iteration-count: 3;

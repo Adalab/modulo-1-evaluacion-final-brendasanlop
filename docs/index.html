@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./assets/css/main.css">
   </head>
 
@@ -18,15 +19,14 @@
     <!--Header-->
     <header class="header">
       <nav class="nav1-container">
-        
         <!--Aqui va mi imagen de fondo-->
-        <img class="menu_hamburguer" src="./assets/images/bars-solid.svg">
+        <a href="https://www.adalab.es"><img class="menu_hamburguer" src="./assets/images/bars-solid.svg"></a> 
         <div class="header__nav__menu">
               <ul class="list-nav">
-                  <li class="item-nav"><a href="#">Productos</a></li>
-                  <li class="item-nav"><a href="#">Colecciones </a></li>
-                  <li class="item-nav"><a href="#">Tienda</a></li>
-                  <li class="item-nav"><a href="#">Inicio </a></li>
+                  <li class="item-nav"><a href="https:www.adalab.es">Productos</a></li>
+                  <li class="item-nav"><a href="https:www.adalab.es">Colecciones </a></li>
+                  <li class="item-nav"><a href="https:www.adalab.es">Tienda</a></li>
+                  <li class="item-nav"><a href="https:www.adalab.es">Inicio </a></li>
               </ul> 
         </div>
       </nav>
@@ -34,7 +34,7 @@
         <img src="./assets/images/logo.png" alt="Logo Open Spaces" class="logo-header">
         <!--Aqui va mi imagen de fondo-->
         <h1 class="title-header">Disfruta creando espacios</h1>
-        <button class="buy-button">Comprar ahora</button> 
+        <a href="https://www.adalab.es"> <button class="buy-button">Comprar ahora</button></a>
       </div> 
       </header>
 
@@ -42,82 +42,88 @@
     <main>
         <!--Aqui empieza la section 1-->
         <section class="section1">
-            <div>
-                <h2>Volverse organizado se siente mejor con OPEN SPACES</h2>
-            </div>
+            <h2 class="title-section1">Volverse organizado se siente mejor con OPEN SPACES</h2>
             <article class="article1">
-                <img src="./assets/images/icon_1.png" alt="table icon">
-                <h3>Lo que necesitas </h3>
-                <p>Una línea de productos diseñados para todos tus espacios</p>
+                <img class="table-icon" src="./assets/images/icon_1.png" alt="table icon">
+                <h3 class="title1-h3">Lo que necesitas </h3>
+                <p class="text-article1">Una línea de productos diseñados para todos tus espacios</p>
             </article>
             <article class="article2">
-                <img src="./assets/images/icon_2.png" alt="raw materials">
-                <h3>Materias primas sustentables</h3>
-                <p>Todos los productos con materias primas sustentables</p>
+                <img class="materials" src="./assets/images/icon_2.png" alt="raw materials">
+                <h3 class="title2-h3">Materias primas sustentables</h3>
+                <p class="text-article2">Todos los productos con materias primas sustentables</p>
             </article>
             <article class="article3">
-                <img src="./assets/images/icon_3.png" alt="help guide">
-                <h3>Guía</h3>
-                <p>Soporte y asesoramiento para ayudarte con tu objetivo</p>
+                <img class="guide" src="./assets/images/icon_3.png" alt="help guide">
+                <h3 class="title-h3">Guía</h3>
+                <p class="text-article3">Soporte y asesoramiento para ayudarte con tu objetivo</p>
             </article>
         </section>
         <!--Aqui empieza la section 2-->
         <section class="section2">
-            <img src="./assets/images/icon_4.png" alt="free shipping">
+            <img class="shipping" src="./assets/images/icon_4.png" alt="free shipping">
             <h4>Envío gratis garantizado</h4>
-            <p>Envío gratis en compras desde 100</p>
-            <p>Comprar ahora</p> 
+            <p class="free-send">Envío gratis en compras desde 100</p>
+            <p class="link-section2"><a href="https://www.adalab.es">Comprar ahora</a></p> 
         </section>
         <!--Aquí empieza la section 3-->
         <section class="section3">
             <article class="article-section3">
-                <h2>Disfruta creando espacios</h2>
-                <p>Una linea de productos diseñados para todos tus espacios</p>
-            <div class="button">
-                <input class="button__buyNow" type="submit" value="Comprar ahora"/>
-            </div>
+                <div class="container-section3">
+                <h2 class="h2-section3">Disfruta creando espacios</h2>
+                <p class="products-line">Una linea de productos diseñados para todos tus espacios</p>
+                </div>
+                <a href="https://www.adalab.es"><button class="buy-buttonMain">comprar ahora</a></button> 
             </article>
-            <div>
-                <img src="./assets/images/creando-espacios.jpg" alt="toilet space">
-            </div>
         </section>
+        <section class="section4">
+                <img class="toilet-image" src="./assets/images/creando-espacios.jpg" alt="toilet space">
+        </section>
+        
       </main>
 
     <!--Footer-->
     <!-- FOOTER -->
     <footer class="footer">
-
-        <div class="footer__elements">
-           <h3 class="elements__title">Tienda</h3>
-           <span class="elements__span">
-            Productos
-            Cajoneras
-            Para toda la casa 
-            Habitaciones
-           </span>
-        </div>
-
-        <div class="footer__elements">
-            <h3 class="elements__title">Nosotros</h3>
-            <span class="elements__span"> 
-            Nuestra guía 
-            Nuestro diseño 
-            Nuesta historia 
-            Ayuda   
-            </span>
-          
-        </div>
-        <div class="footer__elements">
-            <h3 class="elements__title">Contacto</h3>
-            <span class="elements__span">
-            ayuda@openspaces.com 
-            Socios    
-            </span>
-        </div>
-        
-        <div>
-          Aqui van iconos RRSS (Linkedin, Instagram y Twitter)
-        </div> 
-        </footer>
+        <ul class="footer__link--1">
+          <h3 class="footer__title">tienda</h3>
+          <li class="links__item"><a href="https:www.adalab.es" target="_blank">Productos</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Cajoneras</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Para toda la casa</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Habitaciones</a></li>
+        </ul>
+        <ul class="footer__link--2">
+          <h3 class="footer__title">nosotros</h3>
+          <li class="links__item"><a href="https:www.adalab.es">Nuestra Guía</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Nuestra historia</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Nuestro diseño</a></li>
+          <li class="links__item"><a href="https:www.adalab.es">Ayuda</a></li>
+        </ul>
+        <ul class="footer__link--3">
+          <h3 class="footer__title">contacto</h3>
+          <li class="links__item">
+            <a href="mailto:ayuda@openspaces.com">ayuda@openspaces.com</a>
+          </li>
+          <li class="links__item"><a href="https/www.adalab.es">Socios</a></li>
+        </ul>
+        <!--Ul redes sociales-->
+        <ul class="social-nav">
+          <li>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in icon-social1"></i></a> 
+          </li>
+          <li>
+            <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram icon-social2"></i></a> 
+          </li>
+          <li>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-twitter icon-social3"></i></a> 
+          </li>
+        </ul>
+        <ul class="short-up">
+          <li>
+            <a href="./index.html#header"><img src="./assets/images/short_up.png"></a>
+          </li>
+        </ul>
+      </footer>
   </body>
 </html>
